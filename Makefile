@@ -1,4 +1,4 @@
-TOP = ../../..
+TOP = ../..
 include $(TOP)/configure/CONFIG
 
 all:
@@ -7,7 +7,7 @@ all:
 	ln -s -T `find . -regextype posix-egrep -regex '\./VisualDCT\-[0-9\.]+\.jar'` VisualDCT.jar
  
 install:
-	cp vdct $(INSTALL_DIR)/.
+	cp vdct $(INSTALL_HOST_BIN)/.
 
 clean:
 	mvn clean
