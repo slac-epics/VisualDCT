@@ -1,0 +1,5 @@
+#!/bin/bash
+export EPICS_DB_INCLUDE_PATH=$EPICS_BASE_TOP/$EPICS_BASE_VER/db/
+export CLASSPATH=$EPICS_EXTENSIONS/src/vdct
+
+$EPICS_EXTENSIONS/src/vdct/runScript $*

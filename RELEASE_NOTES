@@ -1,0 +1,5 @@
+R2.6.1280-0.1.0		2017-10-13	Hugo Slepicka (slepicka)
+	First version of VDCT as an EPICS extension.
+	Add launcher vdct.
+	Add LCLS_BUILD_ENV.sh for quick setup of environment.
+	Create first version of Makefile to build VisualDCT.
