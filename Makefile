@@ -1,5 +1,5 @@
-#TOP = ../../..
-#include $(TOP)/configure/CONFIG
+TOP = ../../..
+include $(TOP)/configure/CONFIG
 
 all:
 	mvn clean install
