@@ -9,5 +9,5 @@
 #  os/CONFIG_SITE.$(EPICS_HOST_ARCH).$(T_A)
 CROSS_COMPILER_TARGET_ARCHS=
 
-JAVA_HOME=/afs/slac/g/lcls/package/java/jdk1.8.0_144
-M2_HOME=/afs/slac/g/lcls/package/maven/3.5.0/rhel6-x86_64
+JAVA_HOME=$(PACKAGE_SITE_TOP)/java/jdk1.8.0_144
+M2_HOME=$(PACKAGE_SITE_TOP)/maven/3.5.0/rhel6-x86_64
