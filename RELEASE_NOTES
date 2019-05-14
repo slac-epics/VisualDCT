@@ -1,3 +1,8 @@
+R2.7.0-0.1.1	2019-05-13 Bruce Hill
+	Make package path use PACKAGE_SITE_TOP so VisualDCT can build in production.
+	Add downloaded jar files to git so we can build in production w/o needing internet access
+	Use EPICS_BASE instead of EPICS_BASE_TOP and EPICS_BASE_VER to derive db path
+
 R2.7.0-0.1.0		2018-04-05	Hugo Slepicka (slepicka)
 	Unbundled VDCT.
 	Fixed Makefile to look more like an Epics Makefile.
