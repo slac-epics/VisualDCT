@@ -1,7 +1,7 @@
 #!/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-export EPICS_DB_INCLUDE_PATH=$EPICS_BASE_TOP/$EPICS_BASE_VER/db/
+export EPICS_DB_INCLUDE_PATH=$EPICS_BASE/db/
 export CLASSPATH=$DIR/VisualDCT.jar:$CLASSPATH
 
 java -cp $DIR/VisualDCT.jar -DEPICS_DB_INCLUDE_PATH=$EPICS_DB_INCLUDE_PATH com.cosylab.vdct.VisualDCT $*
